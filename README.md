@@ -189,6 +189,7 @@ curl -fsSL https://aerial.qust.me/install.sh | TV=192.168.1.20 bash -s restore
 | 索尼 BRAVIA VH1 国行 | Android 12 | 用户验证；亮度改为打开索尼的图像设置（[#2](https://github.com/pengchujin/aerial-tv/issues/2)） | — |
 | 创维酷开 K3 Pro 90P3D Max（8R145） | Android 11 | 用户验证：开机自启（[#43](https://github.com/pengchujin/aerial-tv/issues/43)）。1.15 起不用再避免设为默认桌面 | — |
 | 康佳 2861 | Android 5.1.1 | 用户验证：安装成功（[#37](https://github.com/pengchujin/aerial-tv/issues/37)） | — |
+| 康佳 KKTV U86V9（Android TV 9652） | Android 9 / MT9652 | 实测 HOME、一次完整重启后自启；原生信号源适配在并行测试版验证；亮度未解决，待机唤醒未测 | [笔记](docs/devices/konka-kktv-u86v9.md) |
 | PPTV K55U27 | Android 6 | 用户验证：能用（[#39](https://github.com/pengchujin/aerial-tv/issues/39)） | — |
 | 腾讯极光盒子 7S | — | 用户验证：安装成功；有两个「设置」，可以长按隐藏一个；待机后回到原桌面，待查（[#51](https://github.com/pengchujin/aerial-tv/issues/51)） | — |
 | 小米 MiTV-ASTP0 | Android 9 | 用户验证：安装、开机自启、待机唤醒；按 HOME 会先闪一下原桌面（[#48](https://github.com/pengchujin/aerial-tv/issues/48)） | — |

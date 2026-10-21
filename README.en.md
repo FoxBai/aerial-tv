@@ -190,6 +190,7 @@ Most TVs sold in China only accept the maker's launcher and kill other apps in s
 | Sony BRAVIA VH1 (China) | Android 12 | User-verified; brightness opens Sony's picture settings ([#2](https://github.com/pengchujin/aerial-tv/issues/2)) | — |
 | Skyworth Coolita K3 Pro 90P3D Max (8R145) | Android 11 | User-verified: starts into Aerial at boot ([#43](https://github.com/pengchujin/aerial-tv/issues/43)). From 1.15 there is no need to avoid making Aerial the default Home | — |
 | Konka 2861 | Android 5.1.1 | User-verified: installs ([#37](https://github.com/pengchujin/aerial-tv/issues/37)) | — |
+| Konka KKTV U86V9 (Android TV 9652) | Android 9 / MT9652 | Home and one full reboot verified; native inputs verified in a parallel test build; brightness unresolved, standby/wake untested | [Notes](docs/devices/konka-kktv-u86v9.md) |
 | PPTV K55U27 | Android 6 | User-verified: works ([#39](https://github.com/pengchujin/aerial-tv/issues/39)) | — |
 | Tencent Aurora Box 7S | — | User-verified: installs; two Settings tiles (hide one with a long press); back to the stock launcher after standby, open ([#51](https://github.com/pengchujin/aerial-tv/issues/51)) | — |
 | Xiaomi MiTV-ASTP0 | Android 9 | User-verified: install, boot, wake from standby; Home flashes the stock launcher first ([#48](https://github.com/pengchujin/aerial-tv/issues/48)) | — |
