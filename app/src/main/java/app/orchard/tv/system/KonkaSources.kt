@@ -9,6 +9,7 @@ import android.util.Log
  * Konka KKTV U86V9 / Android TV 9652 (Android 9) reports no framework inputs. Its native picker
  * reads KKCommonManager instead. Read the actual port list and enum ordinals: this TV exposes
  * three HDMI ports even though the SDK also has an HDMI4 constant. No vendor jar is bundled.
+ * Verified on Konka KKTV U86V9 (MT9652, Android 9), PR #125.
  */
 internal object KonkaSources {
     private const val TAG = "AerialKonkaSources"
