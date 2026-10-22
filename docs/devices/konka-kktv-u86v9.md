@@ -12,8 +12,11 @@
   did not show Aerial. The successful initial sideload route was not recorded precisely enough
   to recommend as a reproducible installation method.
 - Activity Launcher could explicitly start `app.orchard.tv.MainActivity`, and Aerial then worked.
-  Activity Launcher 2.4.1 needed a USB mouse on this TV. This proves the installed app could run;
-  it does not establish the root cause of the stock launcher's missing entry or installer error.
+  Activity Launcher 2.4.1 could not be operated adequately with this TV's remote; the owner
+  connected a USB mouse to complete the Activity Launcher steps, including opening Aerial.
+  The route below therefore currently requires a mouse and is not a remote-only procedure.
+  This proves the installed app could run; it does not establish the root cause of the stock
+  launcher's missing entry or installer error.
 - The normal settings UI did not expose an Android version/developer/accessibility entry to the
   owner, and DevEnabler's first "Open developer options" action failed on this firmware.
 - Activity Launcher exposed `com.konka.kkfactory.FactoryHome` in package `com.konka.kkfactory`.
@@ -21,6 +24,11 @@
   for the subsequent checks. **adb root权限** remained off. Do not change panel, calibration,
   factory-reset, upgrade or other factory parameters as part of this procedure.
 - These are observations on this firmware, not a universal entry sequence for Konka TVs.
+
+Installation usability follow-up (proposal, not implemented): consider a remote-compatible
+Activity Launcher build, or adapting its interface for D-pad focus, directional navigation,
+OK and Back. This would let TV owners search for and launch the required activities without
+connecting a mouse. No Activity Launcher modification is included in this input adapter.
 
 ## HOME and one full reboot
 
