@@ -123,8 +123,9 @@ the input adapter.
   a software overlay was substituted for panel backlight.
 - The SDK reported no light sensor support or enabled light sensor. A separate comparison
   temporarily disabled dynamic backlight, kept the panel enabled and set backlight to 40.
-  The lower `PictureImpl.setBacklight(40, true, true)` returned 0, but no physical observation
-  for that separate comparison was received before restoring the settings. It is inconclusive.
+  The lower `PictureImpl.setBacklight(40, true, true)` returned 0. The owner later answered
+  "unable to judge" for this separate comparison, after the settings had already been restored.
+  It remains inconclusive and must not be counted as either a visible improvement or no effect.
 - Restored and read back: backlight 100, dynamic backlight enabled, panel enabled. Android
   brightness/mode and vendor image brightness/picture mode also matched their initial values.
 - The exact firmware/driver cause remains unknown. An accepted SDK call and saved-value
