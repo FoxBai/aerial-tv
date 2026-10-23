@@ -1,5 +1,3 @@
-这个个人分支增加史努比壁纸和屏保预设；该预设未进入上游。
-
 <div align="center">
 
 <img src="docs/brand/icon.png" width="96" alt="Aerial 图标">

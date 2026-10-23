@@ -1,5 +1,3 @@
-This personal branch adds a Snoopy wallpaper and screensaver preset; the preset is not part of upstream.
-
 <div align="center">
 
 <img src="docs/brand/icon.png" width="96" alt="Aerial icon">
